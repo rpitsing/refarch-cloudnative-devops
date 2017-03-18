@@ -138,6 +138,7 @@
         "repo-branch",
         "deploy-org",
         "deploy-space",
+	"deploy-suffix",
         "ibmid-user",
         "ibmid-pass",
         "shared-secret",
@@ -158,8 +159,8 @@
         {
             "type": "text",
             "readonly": false,
-            "title": "Git repo branch",
-            "key": "repo-branch"
+            "title": "Deployment Suffix",
+            "key": "deployment-suffix"
         },
         {
             "type": "text",
